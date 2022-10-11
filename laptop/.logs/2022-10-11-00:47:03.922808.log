@@ -1,0 +1,19 @@
+[2022-10-11 00:47:03,922] [root] [INFO] : looking for microbit
+[2022-10-11 00:47:03,926] [root] [INFO] : Scanning Ports...
+[2022-10-11 00:47:03,926] [root] [INFO] : Testing: 
+	 port: <serial.tools.list_ports_linux.SysFS object at 0x7f7e95d45030> 
+	 pid: 516 
+	 vid: 3368
+[2022-10-11 00:47:03,926] [root] [INFO] : found target device: 
+	 pid: 516 
+	 vid: 3368 
+	 port: /dev/ttyACM0
+[2022-10-11 00:47:03,926] [root] [INFO] : opening and monitoring microbit port
+[2022-10-11 00:47:11,654] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 00:47:11,661] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/users HTTP/1.1" 500 55
+[2022-10-11 00:47:11,662] [root] [INFO] : laptop -> microbit : 'ready'
+[2022-10-11 00:47:11,667] [root] [INFO] : microbit -> laptop : 'start                         
+'
+[2022-10-11 00:47:12,266] [root] [INFO] : microbit -> laptop : 'stop'
+[2022-10-11 00:47:12,269] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 00:47:12,274] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/entries HTTP/1.1" 500 55

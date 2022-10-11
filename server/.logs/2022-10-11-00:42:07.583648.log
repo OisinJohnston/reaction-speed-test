@@ -1,0 +1,45 @@
+[2022-10-11 00:42:07,584] [asyncio] [DEBUG] : Using selector: EpollSelector
+[2022-10-11 00:42:50,495] [aiohttp.server] [ERROR] : Error handling request
+Traceback (most recent call last):
+  File "/home/aj/.local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+  File "/home/aj/.local/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/home/aj/.local/lib/python3.10/site-packages/aiohttp/web_middlewares.py", line 117, in impl
+    return await handler(request)
+  File "/home/aj/code/school-work/reaction-speed-test/server/app.py", line 177, in static_server
+    return await handler(request)
+  File "/home/aj/code/school-work/reaction-speed-test/server/app.py", line 137, in add_user
+    json = await request.json()
+  File "/home/aj/.local/lib/python3.10/site-packages/aiohttp/web_request.py", line 671, in json
+    return loads(body)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2022-10-11 00:42:50,495] [aiohttp.access] [INFO] : ::1 [10/Oct/2022:23:42:50 +0000] "POST /api/users HTTP/1.1" 500 245 "-" "python-requests/2.28.1"
+[2022-10-11 00:42:51,098] [aiohttp.server] [ERROR] : Error handling request
+Traceback (most recent call last):
+  File "/home/aj/.local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+  File "/home/aj/.local/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/home/aj/.local/lib/python3.10/site-packages/aiohttp/web_middlewares.py", line 117, in impl
+    return await handler(request)
+  File "/home/aj/code/school-work/reaction-speed-test/server/app.py", line 177, in static_server
+    return await handler(request)
+  File "/home/aj/code/school-work/reaction-speed-test/server/app.py", line 147, in add_entry
+    json = await request.json()
+  File "/home/aj/.local/lib/python3.10/site-packages/aiohttp/web_request.py", line 671, in json
+    return loads(body)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2022-10-11 00:42:51,098] [aiohttp.access] [INFO] : ::1 [10/Oct/2022:23:42:51 +0000] "POST /api/entries HTTP/1.1" 500 245 "-" "python-requests/2.28.1"

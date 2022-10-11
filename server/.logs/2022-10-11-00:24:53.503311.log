@@ -1,0 +1,15 @@
+[2022-10-11 00:24:53,503] [asyncio] [DEBUG] : Using selector: EpollSelector
+[2022-10-11 00:24:53,505] [asyncio] [ERROR] : unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<_run_app() done, defined at /home/aj/.local/lib/python3.10/site-packages/aiohttp/web.py:289> exception=OSError(98, "error while attempting to bind on address ('0.0.0.0', 9000): address already in use")>
+Traceback (most recent call last):
+  File "/home/aj/.local/lib/python3.10/site-packages/aiohttp/web.py", line 516, in run_app
+    loop.run_until_complete(main_task)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/home/aj/.local/lib/python3.10/site-packages/aiohttp/web.py", line 415, in _run_app
+    await site.start()
+  File "/home/aj/.local/lib/python3.10/site-packages/aiohttp/web_runner.py", line 121, in start
+    self._server = await loop.create_server(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1505, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 9000): address already in use

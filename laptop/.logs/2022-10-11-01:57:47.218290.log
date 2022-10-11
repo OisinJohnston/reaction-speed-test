@@ -1,0 +1,74 @@
+[2022-10-11 01:57:47,218] [root] [INFO] : looking for microbit
+[2022-10-11 01:57:47,222] [root] [INFO] : Scanning Ports...
+[2022-10-11 01:57:47,222] [root] [INFO] : Testing: 
+	 port: <serial.tools.list_ports_linux.SysFS object at 0x7f73bb495150> 
+	 pid: 516 
+	 vid: 3368
+[2022-10-11 01:57:47,222] [root] [INFO] : found target device: 
+	 pid: 516 
+	 vid: 3368 
+	 port: /dev/ttyACM0
+[2022-10-11 01:57:47,222] [root] [INFO] : opening and monitoring microbit port
+[2022-10-11 01:58:02,209] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 01:58:02,223] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/users HTTP/1.1" 201 12
+[2022-10-11 01:58:02,224] [root] [INFO] : laptop -> microbit : 'ready'
+[2022-10-11 01:58:02,823] [root] [INFO] : microbit -> laptop : 'start                         
+'
+[2022-10-11 01:58:22,997] [root] [INFO] : microbit -> laptop : 'stop                          
+'
+[2022-10-11 01:58:22,998] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 01:58:23,011] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/entries HTTP/1.1" 201 12
+[2022-10-11 01:58:32,619] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 01:58:32,632] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/users HTTP/1.1" 201 12
+[2022-10-11 01:58:32,633] [root] [INFO] : laptop -> microbit : 'ready'
+[2022-10-11 01:58:33,231] [root] [INFO] : microbit -> laptop : 'start                         
+'
+[2022-10-11 01:58:34,997] [root] [INFO] : microbit -> laptop : 'stop                          
+'
+[2022-10-11 01:58:34,998] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 01:58:35,011] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/entries HTTP/1.1" 201 12
+[2022-10-11 01:58:40,284] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 01:58:40,297] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/users HTTP/1.1" 201 12
+[2022-10-11 01:58:40,298] [root] [INFO] : laptop -> microbit : 'ready'
+[2022-10-11 01:58:40,895] [root] [INFO] : microbit -> laptop : 'start                         
+'
+[2022-10-11 01:58:43,081] [root] [INFO] : microbit -> laptop : 'stop                          
+'
+[2022-10-11 01:58:43,082] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 01:58:43,096] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/entries HTTP/1.1" 201 12
+[2022-10-11 01:59:46,164] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 01:59:46,177] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/users HTTP/1.1" 201 12
+[2022-10-11 01:59:46,177] [root] [INFO] : laptop -> microbit : 'ready'
+[2022-10-11 01:59:46,774] [root] [INFO] : microbit -> laptop : 'start                         
+'
+[2022-10-11 01:59:51,254] [root] [INFO] : microbit -> laptop : 'stop                          
+'
+[2022-10-11 01:59:51,255] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 01:59:51,268] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/entries HTTP/1.1" 201 12
+[2022-10-11 01:59:56,967] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 01:59:56,973] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/users HTTP/1.1" 201 12
+[2022-10-11 01:59:56,973] [root] [INFO] : laptop -> microbit : 'ready'
+[2022-10-11 01:59:57,569] [root] [INFO] : microbit -> laptop : 'start                         
+'
+[2022-10-11 01:59:57,605] [root] [INFO] : microbit -> laptop : 'stop                          
+'
+[2022-10-11 01:59:57,606] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 01:59:57,620] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/entries HTTP/1.1" 201 12
+[2022-10-11 02:00:18,104] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 02:00:18,117] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/users HTTP/1.1" 201 12
+[2022-10-11 02:00:18,117] [root] [INFO] : laptop -> microbit : 'ready'
+[2022-10-11 02:00:18,714] [root] [INFO] : microbit -> laptop : 'start                         
+'
+[2022-10-11 02:00:18,717] [root] [INFO] : microbit -> laptop : 'stop                          
+'
+[2022-10-11 02:00:18,717] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 02:00:18,731] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/entries HTTP/1.1" 201 12
+[2022-10-11 02:00:29,363] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 02:00:29,376] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/users HTTP/1.1" 201 12
+[2022-10-11 02:00:29,377] [root] [INFO] : laptop -> microbit : 'ready'
+[2022-10-11 02:00:29,973] [root] [INFO] : microbit -> laptop : 'start                         
+'
+[2022-10-11 02:00:33,057] [root] [INFO] : microbit -> laptop : 'stop                          
+'
+[2022-10-11 02:00:33,057] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
+[2022-10-11 02:00:33,071] [urllib3.connectionpool] [DEBUG] : http://localhost:9000 "POST /api/entries HTTP/1.1" 201 12

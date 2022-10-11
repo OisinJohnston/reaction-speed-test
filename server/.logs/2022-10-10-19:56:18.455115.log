@@ -1,0 +1,12 @@
+[2022-10-10 19:56:18,470] [asyncio] [DEBUG] : Using selector: EpollSelector
+[2022-10-10 19:56:31,093] [aiohttp.access] [INFO] : 127.0.0.1 [10/Oct/2022:18:56:31 +0000] "GET / HTTP/1.1" 200 235 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0"
+[2022-10-10 19:56:31,117] [aiohttp.access] [INFO] : 127.0.0.1 [10/Oct/2022:18:56:31 +0000] "GET /styles.css HTTP/1.1" 404 173 "http://localhost:9000/" "Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0"
+[2022-10-10 19:56:31,118] [aiohttp.access] [INFO] : 127.0.0.1 [10/Oct/2022:18:56:31 +0000] "GET /index.js HTTP/1.1" 404 173 "http://localhost:9000/" "Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0"
+[2022-10-10 19:56:31,118] [aiohttp.access] [INFO] : 127.0.0.1 [10/Oct/2022:18:56:31 +0000] "GET /results.js HTTP/1.1" 200 248 "http://localhost:9000/" "Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0"
+[2022-10-10 19:56:31,119] [aiohttp.access] [INFO] : 127.0.0.1 [10/Oct/2022:18:56:31 +0000] "GET /assets/acc.png HTTP/1.1" 404 173 "http://localhost:9000/" "Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0"
+[2022-10-10 19:56:31,119] [aiohttp.access] [INFO] : 127.0.0.1 [10/Oct/2022:18:56:31 +0000] "GET /assets/lwetb.png HTTP/1.1" 404 173 "http://localhost:9000/" "Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0"
+[2022-10-10 19:56:31,121] [aiohttp.access] [INFO] : 127.0.0.1 [10/Oct/2022:18:56:31 +0000] "GET /styles.css HTTP/1.1" 404 173 "http://localhost:9000/" "Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0"
+[2022-10-10 19:56:31,123] [aiohttp.access] [INFO] : 127.0.0.1 [10/Oct/2022:18:56:31 +0000] "GET /assets/acc.png HTTP/1.1" 404 173 "http://localhost:9000/" "Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0"
+[2022-10-10 19:56:31,123] [aiohttp.access] [INFO] : 127.0.0.1 [10/Oct/2022:18:56:31 +0000] "GET /assets/lwetb.png HTTP/1.1" 404 173 "http://localhost:9000/" "Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0"
+[2022-10-10 19:56:31,125] [aiohttp.access] [INFO] : 127.0.0.1 [10/Oct/2022:18:56:31 +0000] "GET /favicon.ico HTTP/1.1" 404 173 "http://localhost:9000/" "Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0"
+[2022-10-10 19:56:31,126] [aiohttp.access] [INFO] : 127.0.0.1 [10/Oct/2022:18:56:31 +0000] "GET /api/guesses HTTP/1.1" 404 173 "http://localhost:9000/" "Mozilla/5.0 (X11; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0"
