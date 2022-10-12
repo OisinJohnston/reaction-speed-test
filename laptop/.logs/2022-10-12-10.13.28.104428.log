@@ -1,0 +1,12 @@
+[2022-10-12 10:13:28,120] [root] [INFO] : looking for microbit
+[2022-10-12 10:13:28,120] [root] [INFO] : Scanning Ports...
+[2022-10-12 10:13:28,120] [root] [INFO] : Testing: 
+	 port: <serial.tools.list_ports_common.ListPortInfo object at 0x0000016050C03E80> 
+	 pid: 516 
+	 vid: 3368
+[2022-10-12 10:13:28,120] [root] [INFO] : found target device: 
+	 pid: 516 
+	 vid: 3368 
+	 port: COM3
+[2022-10-12 10:13:28,120] [root] [INFO] : opening and monitoring microbit port
+[2022-10-12 10:13:41,524] [urllib3.connectionpool] [DEBUG] : Starting new HTTP connection (1): localhost:9000
